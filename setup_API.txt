@@ -1,54 +1,23 @@
-# 🔍 URL Check
+HOW TO GET YOUR VIRUSTOTAL API KEY AND ADD IT TO url_check.py
 
-**URL Check** is a simple and lightweight tool for information gathering and malicious URL analysis using the VirusTotal API.
+1. Open any browser and go to this link:
+   https://www.virustotal.com/gui/home/upload
 
-![banner](https://user-images.githubusercontent.com/42796435/229538253-e0a9c811-60e4-4294-bd3b-8eb7621b51f5.png)
+2. Sign up for an account (or log in if you already have one).
 
----
+3. After logging in, scroll down or go to this direct link to get your API key:
+   https://www.virustotal.com/gui/my-apikey
 
-## 🛠️ What is URL Check?
+4. Copy the API key shown on that page.
 
-**URL Check** is a command-line tool designed for security professionals and developers to analyze suspicious URLs. It leverages [VirusTotal](https://www.virustotal.com/) to return detailed threat intelligence about any given URL.
+5. Open the file named url_check.py using any code editor (like VS Code, Notepad++, or even Notepad).
 
----
+6. At the top of the file, find this line:
+   API_KEY = ""
 
-## 🚀 Features
+7. Paste your copied API key inside the quotes. For example:
+   API_KEY = "your_actual_api_key_here"
 
-- 🧠 Malicious URL Detection  
-- 📊 Engine-wise Detection Reports  
-- 💡 Detection Summary Statistics  
-- 💻 Cross-Platform Support  
-- 🎯 Minimal Setup  
-- 🔁 Interactive Scanning Loop
+8. Save the file.
 
----
-
-## 📥 Information Collected
-
-When a URL is submitted, URL Check returns:
-
-- ✅ Harmless Count  
-- ❗ Malicious Count  
-- ❓ Suspicious Count  
-- 🔍 Undetected Count  
-- ⏳ Timeout Count  
-- 🧰 Per-Engine Category, Method & Result
-
----
-
-## 🧪 Tested On
-
-- Kali Linux  
-- Ubuntu  
-- Parrot OS  
-
----
-
-## 🔧 Installation & Requirements
-
-Make sure you have **Python 3** installed. Then, install the `requests` package:
-
-```bash
-sudo apt update
-sudo apt install python3 python3-pip -y
-pip3 install requests
+You're all set to use the script with your VirusTotal API key!
