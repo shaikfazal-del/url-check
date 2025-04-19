@@ -40,19 +40,15 @@ When a URL is submitted, URL Check returns:
 
 - Kali Linux  
 - Ubuntu  
-- Termux  
-- Windows (via WSL)  
-- macOS  
 - Parrot OS  
 
 ## 📦 Installing URL Check
 
 ```
-`git clone https://github.com/yourusername/url-check cd url-check python3 url_check.py`
+git clone https://github.com/shaikfazal-del/url-check.git 
+cd url-check 
+python3 url_check.py
 ```
-
-> Replace `yourusername` with your actual GitHub username after uploading the code.
-
 ---
 
 ## 🔐 Setup Your VirusTotal API Key
@@ -95,7 +91,7 @@ Follow the steps below to generate your API key and integrate it with the script
 
 
 ```
-`python3 url_check.py`
+python3 url_check.py
 ```
 
 ---
@@ -103,7 +99,7 @@ Follow the steps below to generate your API key and integrate it with the script
 ## 🧪 Example Output
 
 ```
-`Enter your URL: http://example.com Waiting for analysis to complete... \ Analysis completed! 
+Enter your URL: http://example.com Waiting for analysis to complete... \ Analysis completed! 
 --- URL Analysis Summary --- 
 Submitted URL: http://example.com 
 
@@ -118,7 +114,7 @@ Detection Stats:
 - [Engine: AVG]   
 - Category: undetected   
 - Result:   None  
-- Method:   static`
+- Method:   static
 ```
 
 ---
