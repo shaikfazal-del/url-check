@@ -70,9 +70,10 @@ Follow the steps below to generate your API key and integrate it with the script
 
 1. Open Terminal:
     
-    `cd ~/Downloads    # or the folder where script is located 
-     nano url_check.py`
-    
+    ```
+     cd ~/Downloads    # or the folder where script is located
+     nano url_check.py
+    ```
 2. Find the line:
     
     `API_KEY = ""`
