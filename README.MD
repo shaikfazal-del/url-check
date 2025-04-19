@@ -45,9 +45,9 @@ When a URL is submitted, URL Check returns:
 ## 📦 Installing URL Check
 
 ```
-`git clone https://github.com/shaikfazal-del/url-check.git 
+git clone https://github.com/shaikfazal-del/url-check.git 
 cd url-check 
-python3 url_check.py`
+python3 url_check.py
 ```
 ---
 
